@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <title>Reseña de hotel</title>
+</head>
+
+<body>
+<h2>LABORATORIO 2- Reseña de hotel</h2>
+<div class="row">
+    <div class="col-50">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-50">
+                <h3 id="hotel-name" class="hotel-name"></h3>
+                <h4 id="hotel-location" class="hotel-location"></h4>
+            </div>
+            <div class="col-50"> 
+                <img id= "hotel-img" alt= "Foto hotel" src="" class= "hotel-img"/> 
+            </div>
+        </div>  
+    </div>
+
+    <div class="col-50">
+        <div class = "container">
+            <p class="stars">Puntuación: <span id= "rating"></span></p>
+            <hr>
+            <p>Reseña anónima <input type="checkbox" id= "anonymous"></p>
+
+        </div>
+       <button type="button" onclick="elegirhotel()">Parte opcional</button>
+    </div>
+    
+
+</div>     
+<script src="js/app.js"></script>  
+</body>
+
+</head>
+
+</html>
