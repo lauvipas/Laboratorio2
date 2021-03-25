@@ -2,13 +2,12 @@ var nameHotel= "Balneario las Arenas";
 var locationHotel= "Valencia";
 var imgHotel = "https://static.booking.weekendesk.fr/image_cache/A967000/967733/967733_640_360_FSImage_1_edit_vista.jpg";
 
-var nameHotel = prompt("Introduce el nombre del hotel");
+
 document.getElementById("hotel-name").innerHTML = "Hotel " + nameHotel;
-var locationHotel = prompt("Introduce la localización del hotel");
 document.getElementById("hotel-location").innerHTML= "Ubicado en " + locationHotel;
 document.getElementById("hotel-img").src = "https://static.booking.weekendesk.fr/image_cache/A967000/967733/967733_640_360_FSImage_1_edit_vista.jpg";
 
-var stars = prompt ("¿Qué puntuación quiere darle al hotel?");
+var stars = prompt ("Puntuación del 1 al 5");
 document.getElementById("rating").innerHTML = stars +  " estrellas ";
 var anonymous = confirm ("¿Quiere que su reseña sea anónima?");
 document.getElementById("anonymous").checked = anonymous;
